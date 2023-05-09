@@ -1,0 +1,49 @@
+
+.drawer-menu{
+  width:200; 
+  padding:1rem; 
+  height:100%;
+
+  &__list{
+    height:100%;
+    display:flex; 
+    flex-direction:column;
+    justify-content:space-between;
+  }
+
+  &__icon{
+    min-width:3rem;
+    min-height:3.5rem;
+  }
+
+  &__languages{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around; 
+
+    & .unselected{
+      padding:1rem;
+      width:100%;
+      color:black;
+      text-decoration:underline;  
+      &:hover{
+        cursor:pointer;
+        color:darkBlue;
+        background-color:#eee;
+      }
+
+    }
+
+    & .selected{
+      padding:1rem;
+      width:100%;
+      color:darkBlue;
+      text-decoration:none;
+    }
+
+
+  }
+
+  
+}

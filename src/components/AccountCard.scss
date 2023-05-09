@@ -1,0 +1,44 @@
+.account-card{
+  margin:2rem;
+  background-color:#EEEEFF !important;
+
+  &__content{
+    flex:1;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding:0 !important;
+  }
+
+  &__company{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    min-width: 250px;
+  }
+
+  &__main-contact{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding:0 1rem;
+    margin: 1rem 0;
+    min-width: 250px;
+  }
+
+  &__second-contact{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding:0 1rem;
+    margin: 1rem 0;
+    min-width: 250px;
+  }
+
+  &__actions{
+    display:flex;
+    justify-content:flex-end;
+  }
+}

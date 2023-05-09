@@ -1,0 +1,23 @@
+.portfolio-card{
+  background-color:white;
+  &:hover{
+    cursor:pointer;
+    background-color: #EEEEFF;
+  }
+
+  &__content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  
+  }
+
+  &__icon{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+
+    background-size:cover;
+    object-fit:cover;
+  }
+}

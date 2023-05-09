@@ -1,0 +1,28 @@
+
+
+
+#app-bar{
+  background-color:#194259;
+
+  & .pastille-connexion .MuiBadge-badge{
+    background-color:lightGreen;
+    top:1.25rem;
+    right:0.125rem;
+    min-width:unset;
+    min-height:unset;
+    width:0.8125rem;
+    height:0.8125rem;
+  }
+
+  &__language-selector {
+    color:white;
+    border:none;
+
+    & .MuiSvgIcon-root{
+      fill:white !important;
+    }
+    & fieldset{
+      border:none;
+    }
+  }
+}

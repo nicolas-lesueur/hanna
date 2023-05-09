@@ -1,0 +1,109 @@
+[
+  {
+    "id":1,
+    "name":"ABI testing",
+	"slug":"abi-testing",
+    "country":"Belgium",
+    "city":null,
+    "siret":null,      
+    "createdAt":"06-05-2023 11:30",
+	"icon":"abi-testing.webp",
+    "firstContact":{
+      "firstName":"Eline",
+      "lastName":"Grégoire",
+      "email":"eline@hanna-solutions.com",
+      "phoneNumber":"0494763876"
+    },
+    "secondContact":{
+      "firstName":"ann",
+      "lastName":null,
+      "email":null,
+      "phoneNumber":null
+    },
+    "plans": [
+      {
+        "id":1,
+        "name":"HON 1261",
+        "legalForm":"Company",
+        "createdAt":"06-05-2023 11:30",
+        "modifiedAt":"06-05-2023 11:30"
+      },
+	  {
+        "id":2,
+        "name":"SOLD 1234",
+        "legalForm":"Company",
+        "createdAt":"07-05-2023 10:30",
+        "modifiedAt":"07-05-2023 10:30"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "name":"Dinoland",
+	"slug":"dinoland",
+    "country":"Utopia",
+    "city":"Zigzagdad",
+    "siret":"12345678900001",      
+    "createdAt":"06-05-2023 14:30",
+	"icon":"dinoland.png",
+    "firstContact":{
+      "firstName":"Leila",
+      "lastName":"Reno",
+      "email":"leila.reno@utopia.com",
+      "phoneNumber":"0102030405"
+    },
+    "secondContact":{
+      "firstName":"Jean",
+      "lastName":"Reno",
+      "email":"jean.reno@utopia.com",
+      "phoneNumber":"0102030406"
+    },
+    "plans": [
+      {
+        "id":1,
+        "name":"KONG 007",
+        "legalForm":"Company",
+        "createdAt":"01-05-2023 09:34",
+        "modifiedAt":"01-05-2023 09:56"
+      },
+	  {
+        "id":2,
+        "name":"HANA",
+        "legalForm":"Company",
+        "createdAt":"02-05-2023 12:00",
+        "modifiedAt":"02-05-2023 14:05"
+      }
+    ]
+  },
+  {
+    "id":3,
+    "name":"Futuroland",
+	"slug":"futuroland",
+    "country":"Utopia",
+    "city":"shellGhost",
+    "siret":"12345678900010",      
+    "createdAt":"06-05-2023 15:30",
+	"icon":"futuroland.jpg",
+    "firstContact":{
+      "firstName":"Elias",
+      "lastName":"Ockman",
+      "email":"elias.ockman@utopia.com",
+      "phoneNumber":"0102030408"
+    },
+    "secondContact":{
+      "firstName":"Lena",
+      "lastName":"Liloo",
+      "email":"lena.liloo@utopia.com",
+      "phoneNumber":"0102030409"
+    },
+    "plans": [
+      {
+        "id":1,
+        "name":"KITTY 001",
+        "legalForm":"Company",
+        "createdAt":"04-05-2023 09:24",
+        "modifiedAt":"04-05-2023 09:56"
+      }
+	]
+  }
+]

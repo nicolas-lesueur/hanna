@@ -1,0 +1,10 @@
+.key-value-line{
+//  white-space: nowrap;
+  line-height:2;
+
+
+  &__label{
+    font-weight:bold;
+    padding-right:0.2rem;
+  }  
+}

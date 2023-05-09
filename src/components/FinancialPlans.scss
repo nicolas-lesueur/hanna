@@ -1,0 +1,16 @@
+
+.financial-plans {
+
+  margin:2rem;
+
+  & h3{
+    border-bottom:1px solid lightBlue;
+  }
+ 
+  &__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 40px;
+  }
+
+}

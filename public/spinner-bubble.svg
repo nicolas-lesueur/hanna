@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle  id="circle-01" cx="16" cy="3" r="1.8" fill="#036DC0">
+  </circle>
+  <circle  id="circle-02" cx="16" cy="3" r="1.4" fill="#036DC0">
+  </circle>
+  <circle  id="circle-03" cx="16" cy="3" r="1.1" fill="#036DC0">
+  </circle>
+  <circle  id="circle-04" cx="16" cy="3" r="0.9" fill="#036DC0">
+  </circle>
+  <circle  id="circle-05" cx="16" cy="3" r="0.8" fill="#036DC0">
+  </circle>
+
+  <animateTransform 
+    id="anim1"
+    xlink:href="#circle-01"
+    attributeName="transform" 
+    type="rotate" 
+    dur="1s" 
+    begin="0s;anim1.end"
+    values="90 16 16; 270 16 16; 430 16 16; 450 16 16"
+    additive="sum" 
+    fill="freeze"
+  />
+
+  <animateTransform 
+    id="anim2"
+    xlink:href="#circle-02"
+    attributeName="transform" 
+    type="rotate" 
+    dur="1s" 
+    begin="0s;anim1.begin+0s"
+    values="90 16 16; 250 16 16; 410 16 16; 450 16 16"
+    additive="sum" 
+    fill="freeze"
+  />
+
+  <animateTransform 
+    id="anim3"
+    xlink:href="#circle-03"
+    attributeName="transform" 
+    type="rotate" 
+    dur="1s" 
+    begin="0s;anim1.begin+0s"
+    values="90 16 16; 230 16 16; 390 16 16; 450 16 16"
+    additive="sum" 
+    fill="freeze"
+  />
+
+  <animateTransform 
+    id="anim4"
+    xlink:href="#circle-04"
+    attributeName="transform" 
+    type="rotate" 
+    dur="1s" 
+    begin="0s;anim1.begin+0s"
+    values="90 16 16; 210 16 16; 370 16 16; 450 16 16"
+    additive="sum" 
+    fill="freeze"
+  />
+
+  <animateTransform 
+    id="anim5"
+    xlink:href="#circle-05"
+    attributeName="transform" 
+    type="rotate" 
+    dur="1s" 
+    begin="0s;anim1.begin+0s"
+    values="90 16 16; 190 16 16; 350 16 16; 450 16 16"
+    additive="sum"
+    fill="freeze" 
+  />
+
+
+</svg>
