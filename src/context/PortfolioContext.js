@@ -15,10 +15,8 @@ const PortfolioContextProvider = ({ children }) => {
 
 
   const savePlan = (bookId, plan) => {
-    var bookIndex = portfolio.findIndex(el => el.id === bookId);
-    console.log('in save');
+    var bookIndex = portfolio.findIndex(el => el.id === bookId);    
     if (bookIndex > -1){
-      console.log('detected book');
       var pf = _.cloneDeep(portfolio);
       var planIndex = portfolio[bookIndex].plans.findIndex(el => el.id === plan.id);
       if (planIndex > -1){
@@ -28,7 +26,6 @@ const PortfolioContextProvider = ({ children }) => {
       }
       else{
         //add new one 
-        console.log('saving');
         plan.id = pf[bookIndex].plans.length+1; // this is an hack for demo purpose, the id should be returned by the api 
         pf[bookIndex].plans.push(plan);
         setPortfolio(pf);
