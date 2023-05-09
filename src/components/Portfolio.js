@@ -23,11 +23,11 @@ export default function Portfolio(props) {
       }
       {
         (portfolioContext.portfolio.length > 0) &&
-        <div class='portfolio-wrapper'>
+        <div className='portfolio-wrapper'>
         {
           portfolioContext.portfolio.map((client) => {
             return (
-              <PortfolioCard client={client} onClick={() => {navigate("/books/" + client.slug, { replace: true, state: {}});}} />
+              <PortfolioCard key={client.id} client={client} onClick={() => {navigate("/books/" + client.slug, { replace: true, state: {}});}} />
             ); 
           })
 
